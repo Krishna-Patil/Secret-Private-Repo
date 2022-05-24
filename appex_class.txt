@@ -1,0 +1,9 @@
+public class MyClass{
+    public static void applyDiscount(Book__c[] Books)
+        {
+            for(Book__c b:Books)
+            {
+                b.price__c*= 0.9;
+            }
+        }
+}
